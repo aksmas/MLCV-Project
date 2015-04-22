@@ -1,0 +1,25 @@
+This folder contains the files implemented as course project in CS679A - Machine Learning for Computer Vision.
+
+To compile you need the following python packages:
+-> python-sklearn
+-> python-matplotlib
+-> python-numpy
+-> python-scipy
+-> pyGPs
+
+Compile using:
+----------------------------------------
+python gpmc_classifier.py
+----------------------------------------
+
+This will generate classifier statistics onto the terminal console. You can redirect it to a text file for easy viewing. 
+
+----------------------------------------
+
+In the file gpmc_classifier.py, uncomment lines 64-70 if you want to generate graphs. The graphs are saved in /Images directory. 
+
+----------------------------------------
+
+To test for different number of training samples change "numSamples" variable in gpmc_classifier.py.
+
+----------------------------------------
